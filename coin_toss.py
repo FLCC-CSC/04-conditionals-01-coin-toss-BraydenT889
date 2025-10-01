@@ -1,7 +1,7 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Brayden Thorne
+# DATE: 2025-10-1
+# BRIEF DESCRIPTION:  will flip coin 
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
@@ -18,6 +18,7 @@ def main():
         print("Tails")
     else:
         print("Heads")
+
 if __name__ == "__main__":
     main()
 

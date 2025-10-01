@@ -11,14 +11,15 @@
 
 import random 
 
-def coin_flip():
+def main():
+    print("=== Coin Flipper ===")
     number = random.randint(1, 100)
     if number >= 51:
-        return "Tails"
+        print("Tails")
     else:
-        return "Heads"
-result = coin_flip()
-print(result)
+        print("Heads")
+if __name__ == "__main__":
+    main()
 
 
 

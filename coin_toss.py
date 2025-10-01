@@ -18,7 +18,7 @@ def coin_flip():
     else:
         return "Heads"
 result = coin_flip()
-print("The coin shows:", result)
+print(result)
 
 
 

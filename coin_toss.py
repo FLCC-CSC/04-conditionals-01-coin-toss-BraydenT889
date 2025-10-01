@@ -18,9 +18,9 @@ def main():
 
     number = random.randint(1, 100)
     if number >= 51:
-        print("Tails")
+     print("Tails")
     else:
-        print("Heads")
+     print("Heads")
 
 if __name__ == "__main__":
     main()

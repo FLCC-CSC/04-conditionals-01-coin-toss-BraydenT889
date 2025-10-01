@@ -1,7 +1,7 @@
 # FILE NAME - coin_toss.py
 # NAME: Brayden Thorne
 # DATE: 2025-10-1
-# BRIEF DESCRIPTION:  will flip coin 
+# BRIEF DESCRIPTION: This will flip coin 
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
@@ -12,7 +12,10 @@
 import random 
 
 def main():
-    print("=== Coin Flipper ===")
+    header = "=== Coin Flipper ==="
+    print(header)
+    
+
     number = random.randint(1, 100)
     if number >= 51:
         print("Tails")

@@ -12,9 +12,9 @@
 import random 
 
 def main():
-    header = "=== Coin Flipper ==="
+    header = "===== Coin Flipper ====="
     print(header)
-    print("DEBUG repr(header):", repr(header))
+    
 
     number = random.randint(1, 100)
     if number >= 51:
